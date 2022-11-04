@@ -26,6 +26,7 @@ body {
 
 .main {
     flex: 1 0 auto;
+    margin: 15px auto;
 }
 
 .header, .footer {
@@ -37,6 +38,7 @@ body {
 .header, .site-header {
     display: flex;
     justify-content: space-between;
+    background-color: bisque;
 }
 
 /* Title */
@@ -71,6 +73,7 @@ body {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #222;
+    background-color: bisque;
 }
 
 .footer a {
@@ -87,7 +90,7 @@ body {
     font-family: sans-serif;
     line-height: 1.5rem;
     color: #444;
-    background-color: pink;
+    background-color: #d7dbb3;
 }
 
 p, td, th, li, dd {
@@ -103,6 +106,12 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
     max-width: 100%;
+}
+
+.me {
+    max-width: 25%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */

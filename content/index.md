@@ -3,11 +3,16 @@ Title: Home
 Description: This is our index page.
 ---
 
-Home page
+Välkommen!
 ==========================
 
-The source for this page is in `content/index.md`.
+Jag heter Samuel och studerar första året på Webbprogrammering via BTH. Jag kommer från Nyköping och
+har alltid spenderat mycket tid framför skärmen.
 
-This is a sample home page written in markdown with some frontmatter defined.
+Jag har ofta funderat över hur saker och ting fungerar
+på webben och i en dator. Däremot har jag aldrig lagt någon större energi på att försöka förstå det, förrän nu.
 
-Hejsan svejsan.
+Min förhoppning och min tro är att jag överlevde de första två kurserna. Kanske kan jag överleva den här också?
+
+
+![me](%assets_url%/img/swvvik.jpg){.me}

@@ -1,8 +1,8 @@
 ---
-Logo: assets/img/leaf_256x256.png
+Logo: assets/img/bth_logo.png
 Tagline: My portfolio.
 Social:
-    - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+    - title: Link till mitt repo på GitHub.
+      url: https://github.com/elstarkov/design
       icon: github
 ---
