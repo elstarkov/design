@@ -1,0 +1,89 @@
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'blockquotes';
+@import 'code';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+body {
+    background-color: $background-color;
+    display: $display;
+    flex-direction: $flex-direction;
+}
+
+html,
+body {
+    height: $height;
+}
+
+.main {
+    flex: $flex;
+    margin: $margin-alternative;
+}
+
+* {
+    color: $font-color;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: $letter-spacing;
+    line-height: $line-height;
+    margin: $margin;
+    box-sizing: $box-sizing;
+    border: $border;
+    padding: $padding;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    max-width: $max-width-alternative;
+}
+
+.me {
+    max-width: $max-width;
+    margin-top: $margin-top;
+    margin-bottom: $margin-bottom;
+}
+
+.header,
+.footer {
+    flex: $flex-alternative;
+}
+
+/* Footer */
+
+.footer {
+    display: $display;
+    justify-content: $justify-content;
+    border-top: $border-top;
+    background-color: $background-color;
+}
+
+.footer a {
+    color: $color;
+    text-decoration: $text-decoration;
+}
+
+.footer .social {
+    font-size: $font-size;
+}
+
+/* Header */
+
+.header,
+.site-header {
+    display: $display;
+    justify-content: $justify-content;
+    background-color: $background-alternative-color;
+}
