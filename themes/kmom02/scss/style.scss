@@ -9,7 +9,13 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'blockquotes';
 @import 'code';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+@import 'footer';
+@import 'img';
+@import 'header';
+@import 'media';
+@import 'typography';
 
+//body-----------------------------------------
 body {
     background-color: $background-color;
     display: $display;
@@ -21,11 +27,16 @@ body {
     height: $height;
 }
 
+//main------------------------------------------
 .main {
     flex: $flex;
     margin: $margin-alternative;
+    max-width: $max-width-alternative1;
+    padding-left: $padding-left;
+    padding-right: $padding-right;
 }
 
+//*----------------------------------------------
 * {
     color: $font-color;
     font-family: 'Roboto', sans-serif;
@@ -37,6 +48,12 @@ body {
     padding: $padding;
 }
 
+//p----------------------------------------------
+p {
+    font-size: $font-size-alternative;
+}
+
+//headlines--------------------------------------
 h1,
 h2,
 h3,
@@ -46,6 +63,7 @@ h6 {
     font-family: 'Open Sans', sans-serif;
 }
 
+//images----------------------------------------
 img {
     max-width: $max-width-alternative;
 }
@@ -56,12 +74,12 @@ img {
     margin-bottom: $margin-bottom;
 }
 
+
+// Footer------------------------------------------
 .header,
 .footer {
     flex: $flex-alternative;
 }
-
-/* Footer */
 
 .footer {
     display: $display;
@@ -79,11 +97,18 @@ img {
     font-size: $font-size;
 }
 
-/* Header */
+//Header ------------------------------------
 
 .header,
 .site-header {
     display: $display;
     justify-content: $justify-content;
     background-color: $background-alternative-color;
+}
+
+//media-------------------------------------------
+@media (min-width: $min-width) {
+    html {
+        font-size: $font-size-alternative1;
+    }
 }

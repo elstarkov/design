@@ -6473,6 +6473,9 @@ body {
 .main {
   flex: 1 0 auto;
   margin: 15px auto;
+  max-width: 67rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 * {
@@ -6484,6 +6487,10 @@ body {
   box-sizing: border-box;
   border: 0 none;
   padding: 0;
+}
+
+p {
+  font-size: 1em;
 }
 
 h1,
@@ -6510,7 +6517,6 @@ img {
   flex: 0 0 auto;
 }
 
-/* Footer */
 .footer {
   display: flex;
   justify-content: space-between;
@@ -6527,10 +6533,15 @@ img {
   font-size: 2rem;
 }
 
-/* Header */
 .header,
 .site-header {
   display: flex;
   justify-content: space-between;
   background-color: #fff;
+}
+
+@media (min-width: 64em) {
+  html {
+    font-size: 112.5%;
+  }
 }
