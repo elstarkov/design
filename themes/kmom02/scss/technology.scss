@@ -1,0 +1,36 @@
+.xx {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-template-rows: 100px 100px 100px 100px;
+}
+
+.xx h1 {
+    grid-column: 2 / 2;
+    text-decoration: underline;
+}
+
+
+.xx p {
+    grid-column: 2 / 2;
+    color: #ffffff;
+}
+
+.xx pre {
+    grid-column: 2 / 2;
+}
+
+div.side-nav {
+    grid-column: 1 / 1;
+    grid-row: 2 / 3;
+}
+
+@media screen and (max-width: 960px) {
+    .xx {
+        grid-gap: 15px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: none;
+    div.side-nav {
+        display: none;
+        }
+    }
+}
