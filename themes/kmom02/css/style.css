@@ -6554,9 +6554,8 @@ pre code {
 @media screen and (max-width: 960px) {
   .tech {
     padding: 0.5em;
-    grid-gap: 5px;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "top-left" "top-right" "bottom";
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
   }
 }
 .xx {
