@@ -6494,7 +6494,7 @@ pre code {
 }
 
 .css:hover {
-  background: #f0d6af;
+  background: #747474;
 }
 
 .html {
@@ -6503,7 +6503,7 @@ pre code {
 }
 
 .html:hover {
-  background: #f0d6af;
+  background: #747474;
 }
 
 .java {
@@ -6512,7 +6512,7 @@ pre code {
 }
 
 .java:hover {
-  background: #f0d6af;
+  background: #747474;
 }
 
 .php {
@@ -6521,7 +6521,7 @@ pre code {
 }
 
 .php:hover {
-  background: #f0d6af;
+  background: #747474;
 }
 
 .python {
@@ -6530,7 +6530,7 @@ pre code {
 }
 
 .python:hover {
-  background: #f0d6af;
+  background: #747474;
 }
 
 .git {
@@ -6539,7 +6539,7 @@ pre code {
 }
 
 .git:hover {
-  background: #f0d6af;
+  background: #747474;
 }
 
 .sqlite {
@@ -6548,7 +6548,7 @@ pre code {
 }
 
 .sqlite:hover {
-  background: #f0d6af;
+  background: #747474;
 }
 
 @media screen and (max-width: 960px) {
@@ -6595,7 +6595,7 @@ pre code {
   }
 }
 body {
-  background-color: #b0d3f0;
+  background-color: #363636;
   display: flex;
   flex-direction: column;
 }
@@ -6614,7 +6614,7 @@ body {
 }
 
 * {
-  color: #000;
+  color: #ececec;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
   line-height: 1.5rem;
@@ -6639,12 +6639,14 @@ h6 {
 
 img {
   max-width: 70%;
+  filter: invert(1);
 }
 
 .me {
   max-width: 25%;
   margin-top: 50px;
   margin-bottom: 50px;
+  filter: brightness(0.75);
 }
 
 .header,
@@ -6656,7 +6658,7 @@ img {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #222;
-  background-color: #b0d3f0;
+  background-color: #363636;
 }
 
 .footer a {
@@ -6672,7 +6674,11 @@ img {
 .site-header {
   display: flex;
   justify-content: space-between;
-  background-color: #d4ebff;
+  background-color: #626262;
+}
+
+.nav a {
+  color: #fff;
 }
 
 @media (min-width: 64em) {

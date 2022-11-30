@@ -1,16 +1,15 @@
-
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
 @import '../../node_modules/normalize.css/normalize';
-@import 'variables';
+@import 'variables-dark';
 @import 'blockquotes';
 @import 'code';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 @import 'report';
-@import 'technologies';
+@import 'technologies-dark';
 @import 'technology';
 
 //body-----------------------------------------
@@ -64,12 +63,14 @@ h6 {
 //images----------------------------------------
 img {
     max-width: $max-width-alternative;
+    filter: $filter1;
 }
 
 .me {
     max-width: $max-width;
     margin-top: $margin-top;
     margin-bottom: $margin-bottom;
+    filter: $filter;
 }
 
 
@@ -102,6 +103,10 @@ img {
     display: $display;
     justify-content: $justify-content;
     background-color: $background-alternative-color;
+}
+
+.nav a {
+    color: $color3;
 }
 
 //media-------------------------------------------

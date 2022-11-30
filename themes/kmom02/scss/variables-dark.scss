@@ -1,11 +1,14 @@
 
 //colors
-$font-color: #000;
+$font-color: #ececec;
 $font-alternative-color: #f6f5d4;
 $accent-color: #d4cab6;
-$background-color: #b0d3f0;
-$background-alternative-color: #d4ebff;
+$background-color: #363636;
+$background-alternative-color: #626262;
 $background-alternative-color2: #6788a3;
+
+//nav
+$color3: #fff;
 
 //footer
 $display: flex;
@@ -22,11 +25,13 @@ $justify-content: space-between;
 
 //img
 $max-width-alternative: 70%;
+$filter1: invert(1);
 
 //me
 $max-width: 25%;
 $margin-top: 50px;
 $margin-bottom: 50px;
+$filter: brightness(0.75);
 
 //media
 $min-width: 64em;
@@ -55,3 +60,4 @@ $padding-right: 1.5rem;
 
 //p
 $font-size-alternative: 1em;
+

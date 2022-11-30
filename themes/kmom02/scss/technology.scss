@@ -12,14 +12,14 @@
 
 .xx p {
     grid-column: 2 / 2;
-    color: #ffffff;
+    color: #fff;
 }
 
 .xx pre {
     grid-column: 2 / 2;
 }
 
-div.side-nav {
+.side-nav {
     grid-column: 1 / 1;
     grid-row: 2 / 3;
 }
@@ -29,8 +29,9 @@ div.side-nav {
         grid-gap: 15px;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: none;
-    div.side-nav {
-        display: none;
+
+        .side-nav {
+            display: none;
         }
     }
 }
