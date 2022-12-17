@@ -14,5 +14,4 @@ på webben och i en dator. Däremot har jag aldrig lagt någon större energi p�
 
 Min förhoppning och min tro är att jag överlevde de första två kurserna. Kanske kan jag överleva den här också?
 
-
-![me](%assets_url%/img/swvvik.jpg){.me}
+![me](image/swvvik.jpg){.me}
