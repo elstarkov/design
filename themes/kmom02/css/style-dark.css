@@ -6593,6 +6593,13 @@ pre code {
     display: none;
   }
 }
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
