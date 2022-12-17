@@ -6593,6 +6593,40 @@ pre code {
     display: none;
   }
 }
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 33.33%;
+  max-width: 33.33%;
+}
+
+@media screen and (max-width: 960px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 body {
   background-color: #363636;
   display: flex;
@@ -6638,7 +6672,7 @@ h6 {
 
 img {
   max-width: 70%;
-  filter: invert(1);
+  filter: brightness(0.75);
 }
 
 .me {
@@ -6684,4 +6718,12 @@ img {
   html {
     font-size: 112.5%;
   }
+}
+.calc {
+  max-height: 100%;
+  height: 550px;
+  max-width: 100%;
+  width: 1400px;
+  border: 1px solid #000;
+  filter: brightness(0.75);
 }

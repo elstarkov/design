@@ -12,6 +12,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'report';
 @import 'technologies';
 @import 'technology';
+@import 'gallery';
+
 
 //body-----------------------------------------
 body {
@@ -32,6 +34,7 @@ body {
     max-width: $max-width-alternative1;
     padding-left: $padding-left;
     padding-right: $padding-right;
+    //display: $display-alternative;
 }
 
 //*----------------------------------------------
@@ -109,4 +112,12 @@ img {
     html {
         font-size: $font-size-alternative1;
     }
+}
+
+.calc {
+    max-height: $max-height-alternative3;
+    height: $height-alternative3;
+    max-width: $max-width-alternative3;
+    width: $width-alternative3;
+    border: $border-alternative3;
 }
