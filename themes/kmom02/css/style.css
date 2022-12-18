@@ -6677,10 +6677,9 @@ h6 {
   font-family: "Open Sans", sans-serif;
 }
 
-img {
-  max-width: 70%;
-}
-
+/*img {
+    max-width: $max-width-alternative;
+}*/
 .me {
   max-width: 25%;
   margin-top: 50px;
