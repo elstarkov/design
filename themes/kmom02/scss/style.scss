@@ -88,6 +88,13 @@ h6 {
     margin: $margin-alternative5;
 }
 
+@media screen and (max-width: 960px) {
+    .myColumn {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
 // Footer------------------------------------------
 .header,
 .footer {

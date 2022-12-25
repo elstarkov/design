@@ -6701,6 +6701,12 @@ h6 {
   margin: 15px;
 }
 
+@media screen and (max-width: 960px) {
+  .myColumn {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 .header,
 .footer {
   flex: 0 0 auto;
