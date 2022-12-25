@@ -100,5 +100,5 @@ Här kan du titta på några inbjudande mat- och dryck-bilder.
 ...Vill du hellre värma dig framför brasan kan du titta på videon.
 
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/bsr5RiIYEzE" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/bsr5RiIYEzE" title="Youtube-link" frameborder="0" allowfullscreen></iframe>
 </div>

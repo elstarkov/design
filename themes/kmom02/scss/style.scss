@@ -43,7 +43,7 @@ body {
     font-family: 'Roboto', sans-serif;
     letter-spacing: $letter-spacing;
     line-height: $line-height;
-    margin: $margin;
+    //margin: $margin;
     box-sizing: $box-sizing;
     border: $border;
     padding: $padding;
@@ -76,6 +76,18 @@ h6 {
 }
 
 
+.myText {
+    display: $display-alternative5;
+    flex-wrap: $flex-wrap-alternative5;
+    flex-direction: $flex-direction-alternative5;
+}
+
+.myColumn {
+    flex: $flex-alternative5;
+    max-width: $max-width-alternative5;
+    margin: $margin-alternative5;
+}
+
 // Footer------------------------------------------
 .header,
 .footer {
@@ -105,6 +117,12 @@ h6 {
     display: $display;
     justify-content: $justify-content;
     background-color: $background-alternative-color;
+}
+
+//nav--------------------
+.nav a {
+    color: $color3;
+    font-size: $font-size-alternative3;
 }
 
 //media-------------------------------------------

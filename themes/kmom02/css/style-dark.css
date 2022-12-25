@@ -6600,6 +6600,10 @@ video {
   max-width: 100%;
 }
 
+.max-width {
+  max-width: 100%;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -6658,7 +6662,6 @@ body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
   line-height: 1.5rem;
-  margin: 1;
   box-sizing: border-box;
   border: 0 none;
   padding: 0;
@@ -6678,7 +6681,6 @@ h6 {
 }
 
 img {
-  max-width: 70%;
   filter: brightness(0.75);
 }
 
@@ -6687,6 +6689,18 @@ img {
   margin-top: 50px;
   margin-bottom: 50px;
   filter: brightness(0.75);
+}
+
+.myText {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+.myColumn {
+  flex: 47%;
+  max-width: 50%;
+  margin: 15px;
 }
 
 .header,
@@ -6719,6 +6733,7 @@ img {
 
 .nav a {
   color: #fff;
+  font-size: larger;
 }
 
 @media (min-width: 64em) {
